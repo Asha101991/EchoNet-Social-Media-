@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EchoNet - Where Your Voice Echoes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="logo">EchoNet</h1>
+    <input class="search" type="text" placeholder="Search..." />
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Messages</a>
+      <a href="#">Profile</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Where Your Voice Echoes</h2>
+    <p>Share ideas, connect with communities, and watch your voice echo across the network.</p>
+    <a href="#feed" class="btn">Join EchoNet</a>
+  </section>
+
+  <div class="container" id="feed">
+    <aside class="sidebar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Messages</a></li>
+        <li><a href="#">Friends</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </aside>
+
+    <main class="feed">
+      <div class="create-post">
+        <textarea id="postText" placeholder="What's on your mind?"></textarea>
+        <button onclick="addPost()">Post</button>
+      </div>
+
+      <div id="posts">
+        <article class="post">
+          <h3>@username</h3>
+          <p>This is a sample post on EchoNet. Excited to be here!</p>
+        </article>
+        <article class="post">
+          <h3>Ashaar Leacock Thomas</h3>
+          <p>Just joined EchoNet! Excited to connect with everyone.</p>
+        </article>
+      </div>
+    </main>
+
+    <aside class="rightbar">
+      <h3>Trending</h3>
+      <p>#Technology</p>
+      <p>#Design</p>
+      <p>#Startup</p>
+    </aside>
+  </div>
+
+  <section class="features">
+    <div class="feature-card">
+      <h3>Echo Posts</h3>
+      <p>Create posts that spread across the network.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Communities</h3>
+      <p>Join groups built around shared passions.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Voice Echo</h3>
+      <p>Share your thoughts using future voice posts.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 EchoNet. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
